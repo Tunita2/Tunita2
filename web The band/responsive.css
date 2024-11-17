@@ -1,0 +1,36 @@
+/* PC */
+@media(min-width: 1024px){
+
+}
+/* tablet */
+@media(min-width: 740px) and (max-width: 1023){
+
+}
+/* mobile */
+@media(max-width: 740px){
+    #Header{
+        overflow: hidden;
+    }
+    #Header .btn-menu{
+        display: block;
+    }
+    #Header .btn-search{
+        display: none;
+    }
+    
+    #navigation{
+        display: block;
+    }
+    #navigation > div{
+        display: block;
+    }
+    #navigation > div:first-child{
+        display: inline-block;
+    }
+    #navigation .subnav{
+        position: initial;   
+    }
+    #navigation .subnav{
+        background-color: black;
+    }
+}

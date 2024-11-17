@@ -1,0 +1,30 @@
+body,html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+fieldset{
+    background-color: rgb(red, green, blue);
+    display: block;
+}
+#Login{
+    width: calc();
+    height: 500px;
+    background: linear-gradient( to bottom right, rgb(33, 112, 124), rgb(48, 46, 174), rgb(69, 175, 186) );
+    position: relative;
+}
+.title_header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    
+    
+}
+.title_header .btn_title{
+    text-align: center;
+}
+
